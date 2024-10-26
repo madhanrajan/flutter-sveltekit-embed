@@ -5,6 +5,7 @@
 	"scripts": {
 		"predev": "pushd flutter_app && flutter clean && flutter build web --release && popd",
 		"dev": "vite dev",
+		"prebuild": "pushd flutter_app && flutter clean && flutter build web --release && popd",
 		"build": "vite build",
 		"preview": "vite preview"
 	},
